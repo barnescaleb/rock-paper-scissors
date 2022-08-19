@@ -21,7 +21,7 @@ function playRound(playerSelection) {
         + '<br><br>Player Score: ' + playerScore + '<br><br>Computer Score: ' + computerScore)
 
         if (playerScore == 5) {
-            result += 'You Won!'
+            result += 'You Won, Rock, Raper, Scissors Champ!'
         }
 
     } 
@@ -35,7 +35,7 @@ function playRound(playerSelection) {
         + '<br><br>Player Score: ' + playerScore + '<br><br>Computer Score: ' + computerScore)
 
         if (computerScore == 5) {
-            result += '<br><br>You Lose!'
+            result += '<br><br>You lose, best of luck next time!'
         }
     }
 
